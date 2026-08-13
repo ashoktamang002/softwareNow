@@ -6,11 +6,11 @@ digits = 0
 whitespace = 0
 other = 0
 
-for char in text_analyse:
+for ch in text_analyse:
     total += 1
-    if char.isalpha():
+    if ch.isalpha():
         letters += 1
-    elif char.isdigit():
+    elif ch.isdigit():
         digits += 1
     elif char.isspace():
         whitespace += 1
